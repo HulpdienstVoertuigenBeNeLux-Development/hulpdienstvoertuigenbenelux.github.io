@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 822
+        "aantal": 825
     },
     {
         "afkorting": "DAT",
@@ -12,7 +12,7 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 707
+        "aantal": 713
     },
     {
         "afkorting": "PM",
@@ -77,7 +77,7 @@
     {
         "afkorting": "WOH",
         "type": "Waterongevallen materieel haakarmbak",
-        "aantal": 2
+        "aantal": 1
     },
     {
         "afkorting": "WOV",
@@ -552,7 +552,7 @@
     {
         "afkorting": "HVH",
         "type": "Hulpverleningshaakarmbak",
-        "aantal": 20
+        "aantal": 22
     },
     {
         "afkorting": "HVT",
@@ -667,7 +667,7 @@
     {
         "afkorting": "GM",
         "type": "Gereedschap/materieelvoertuig",
-        "aantal": 143
+        "aantal": 144
     },
     {
         "afkorting": "GMT",
@@ -677,7 +677,7 @@
     {
         "afkorting": "GMH",
         "type": "Gereedschap/materieelhaakarmbak",
-        "aantal": 11
+        "aantal": 13
     },
     {
         "afkorting": "TK-K",
@@ -747,7 +747,7 @@
     {
         "afkorting": "LOH-O",
         "type": "Logistiek haakarmbak open uitvoering",
-        "aantal": 25
+        "aantal": 24
     },
     {
         "afkorting": "LO-ICT",
@@ -832,7 +832,7 @@
     {
         "afkorting": "VZH",
         "type": "Verzorgingshaakarmbak",
-        "aantal": 35
+        "aantal": 36
     },
     {
         "afkorting": "VZA-WC",
@@ -1307,12 +1307,12 @@
     {
         "afkorting": "BMA-OTO",
         "type": "Bijzonder materieel aanhanger t.b.v. opleiding, training en oefenen",
-        "aantal": 124
+        "aantal": 127
     },
     {
         "afkorting": "BMH-OTO",
         "type": "Bijzonder materieel haakarmbak t.b.v. opleiding, training en oefenen",
-        "aantal": 47
+        "aantal": 49
     },
     {
         "afkorting": "TS-OTO",
