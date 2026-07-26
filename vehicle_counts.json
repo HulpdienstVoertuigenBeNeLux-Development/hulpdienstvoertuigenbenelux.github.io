@@ -17,7 +17,7 @@
     {
         "afkorting": "PM",
         "type": "Personeel/materieelvoertuig",
-        "aantal": 148
+        "aantal": 143
     },
     {
         "afkorting": "PMT",
@@ -1348,5 +1348,10 @@
         "afkorting": "COUGAR",
         "type": "Cougar Defensie t.b.v. FBO",
         "aantal": 17
+    },
+    {
+        "afkorting": "BM-VTHS",
+        "type": "Personeel/materieelvoertuig",
+        "aantal": 5
     }
 ]
