@@ -232,7 +232,7 @@
     {
         "afkorting": "VKT-NB",
         "type": "Verkenningsvoertuig terreinvaardig natuurbrandbestrijding",
-        "aantal": 11
+        "aantal": 12
     },
     {
         "afkorting": "AL",
@@ -792,7 +792,7 @@
     {
         "afkorting": "VKT",
         "type": "Verkenningsvoertuig terreinvaardig",
-        "aantal": 4
+        "aantal": 3
     },
     {
         "afkorting": "VK-TDV",
@@ -1351,7 +1351,7 @@
     },
     {
         "afkorting": "BM-VTHS",
-        "type": "Personeel/materieelvoertuig",
+        "type": "Bijzonder materieel veiligheidstester hoogspanning",
         "aantal": 5
     }
 ]
