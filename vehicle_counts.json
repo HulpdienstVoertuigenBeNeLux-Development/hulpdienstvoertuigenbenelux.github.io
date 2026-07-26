@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 825
+        "aantal": 824
     },
     {
         "afkorting": "DAT",
@@ -12,7 +12,7 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 713
+        "aantal": 714
     },
     {
         "afkorting": "PM",
@@ -457,7 +457,7 @@
     {
         "afkorting": "MSH-TPB",
         "type": "Motorspuit/boosterpomphaakarmbak tankput brandbestrijding",
-        "aantal": 6
+        "aantal": 7
     },
     {
         "afkorting": "SLH-TPB",
@@ -527,7 +527,7 @@
     {
         "afkorting": "FR-B",
         "type": "First responder brandweer",
-        "aantal": 49
+        "aantal": 48
     },
     {
         "afkorting": "MA",
@@ -737,7 +737,7 @@
     {
         "afkorting": "LOH",
         "type": "Logistiek haakarmbak",
-        "aantal": 22
+        "aantal": 21
     },
     {
         "afkorting": "LOH-KR",
@@ -777,7 +777,7 @@
     {
         "afkorting": "SAH",
         "type": "Stroom aggregaat haakarmbak",
-        "aantal": 2
+        "aantal": 3
     },
     {
         "afkorting": "BM-TES",
@@ -1307,7 +1307,7 @@
     {
         "afkorting": "BMA-OTO",
         "type": "Bijzonder materieel aanhanger t.b.v. opleiding, training en oefenen",
-        "aantal": 127
+        "aantal": 128
     },
     {
         "afkorting": "BMH-OTO",
