@@ -630,6 +630,11 @@
         "aantal": 38
     },
     {
+        "afkorting": "BM-VTHS",
+        "type": "Bijzonder materieel veiligheidstester hoogspanning",
+        "aantal": 5
+    },
+    {
         "afkorting": "AB",
         "type": "Adembescherming voertuig",
         "aantal": 13
@@ -1348,10 +1353,5 @@
         "afkorting": "COUGAR",
         "type": "Cougar Defensie t.b.v. FBO",
         "aantal": 17
-    },
-    {
-        "afkorting": "BM-VTHS",
-        "type": "Bijzonder materieel veiligheidstester hoogspanning",
-        "aantal": 5
     }
 ]
