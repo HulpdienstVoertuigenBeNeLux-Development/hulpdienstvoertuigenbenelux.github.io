@@ -860,6 +860,10 @@
         "type": " Ondersteuningsteam veetakel installatie"
     },
     {
+        "afkorting": "BM-VTHS",
+        "type": "Bijzonder materieel veiligheidstester hoogspanning"
+    },
+    {
         "afkorting": "BU-VTHS",
         "type": "Bijzondere uitrusting veiligheidstester hoogspanning"
     },
