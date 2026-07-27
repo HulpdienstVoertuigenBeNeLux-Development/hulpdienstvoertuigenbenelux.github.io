@@ -52,7 +52,7 @@
     {
         "afkorting": "ON-BRV",
         "type": "Ondersteuningsteam brandweervaartuig",
-        "aantal": 8
+        "aantal": 7
     },
     {
         "afkorting": "HBV",
@@ -677,7 +677,7 @@
     {
         "afkorting": "GMT",
         "type": "Gereedschap/materieelvoertuig terreinvaardig",
-        "aantal": 5
+        "aantal": 6
     },
     {
         "afkorting": "GMH",
@@ -883,6 +883,11 @@
         "afkorting": "VD-MOP",
         "type": "Verbindingsdienst voertuig mobiel opstelpunt",
         "aantal": 5
+    },
+    {
+        "afkorting": "COP-DCU",
+        "type": "Commando/Coördinatiepost decentrale uitgifte",
+        "aantal": 1
     },
     {
         "afkorting": "AC-B",
