@@ -12,7 +12,7 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 714
+        "aantal": 712
     },
     {
         "afkorting": "PM",
@@ -303,6 +303,11 @@
         "afkorting": "PM-UHD",
         "type": "Personeel/materieelvoertuig ultra hoge druk blussysteem",
         "aantal": 5
+    },
+    {
+        "afkorting": "ON-UHD",
+        "type": "Ondersteuningsteam ultra hoge druk blussysteem",
+        "aantal": 1
     },
     {
         "afkorting": "BMH-SIB",
@@ -1052,7 +1057,7 @@
     {
         "afkorting": "TD",
         "type": "Technische dienst",
-        "aantal": 55
+        "aantal": 56
     },
     {
         "afkorting": "TL-QRT",
