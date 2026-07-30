@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 824
+        "aantal": 821
     },
     {
         "afkorting": "DAT",
@@ -12,12 +12,12 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 712
+        "aantal": 705
     },
     {
         "afkorting": "PM",
         "type": "Personeel/materieelvoertuig",
-        "aantal": 143
+        "aantal": 142
     },
     {
         "afkorting": "PMT",
@@ -117,7 +117,7 @@
     {
         "afkorting": "GSH",
         "type": "Gevaarlijke stoffen haakarmbak",
-        "aantal": 16
+        "aantal": 15
     },
     {
         "afkorting": "GSH-PBM",
@@ -132,7 +132,7 @@
     {
         "afkorting": "BOH-DC",
         "type": "Basis ontsmetting haakarmbak decontaminatie",
-        "aantal": 22
+        "aantal": 21
     },
     {
         "afkorting": "GOH-DC",
@@ -162,7 +162,7 @@
     {
         "afkorting": "VK-GS",
         "type": "Verkenningsvoertuig IBGS",
-        "aantal": 74
+        "aantal": 75
     },
     {
         "afkorting": "OG",
@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1147
+        "aantal": 1149
     },
     {
         "afkorting": "TST",
@@ -372,7 +372,7 @@
     {
         "afkorting": "SVH",
         "type": "Schuimvormend middel haakarmbak",
-        "aantal": 8
+        "aantal": 9
     },
     {
         "afkorting": "BPA",
@@ -392,7 +392,7 @@
     {
         "afkorting": "MSA",
         "type": "Motorspuitaanhanger",
-        "aantal": 94
+        "aantal": 95
     },
     {
         "afkorting": "SL-KW",
@@ -432,7 +432,7 @@
     {
         "afkorting": "DPH-GW",
         "type": "Dompelpomphaakarmbak grootschalige watervoorziening",
-        "aantal": 77
+        "aantal": 78
     },
     {
         "afkorting": "SL-GW",
@@ -532,7 +532,7 @@
     {
         "afkorting": "FR-B",
         "type": "First responder brandweer",
-        "aantal": 48
+        "aantal": 56
     },
     {
         "afkorting": "MA",
@@ -557,7 +557,7 @@
     {
         "afkorting": "HVH",
         "type": "Hulpverleningshaakarmbak",
-        "aantal": 22
+        "aantal": 20
     },
     {
         "afkorting": "HVT",
@@ -592,7 +592,7 @@
     {
         "afkorting": "LIH-RTV",
         "type": "Verlichtingshaakarmbak rampterrein verlichting",
-        "aantal": 20
+        "aantal": 19
     },
     {
         "afkorting": "RH",
@@ -652,7 +652,7 @@
     {
         "afkorting": "AH",
         "type": "Arbeidshygiëne voertuig",
-        "aantal": 17
+        "aantal": 16
     },
     {
         "afkorting": "AHH",
@@ -677,7 +677,7 @@
     {
         "afkorting": "GM",
         "type": "Gereedschap/materieelvoertuig",
-        "aantal": 144
+        "aantal": 145
     },
     {
         "afkorting": "GMT",
@@ -702,7 +702,7 @@
     {
         "afkorting": "HA",
         "type": "Haakarmvoertuig",
-        "aantal": 245
+        "aantal": 244
     },
     {
         "afkorting": "HA-KR",
@@ -767,7 +767,7 @@
     {
         "afkorting": "MFT",
         "type": "Multifunctioneel voertuig terreinvaardig",
-        "aantal": 12
+        "aantal": 14
     },
     {
         "afkorting": "MFT-VER",
@@ -877,7 +877,7 @@
     {
         "afkorting": "COH-MU",
         "type": "Commando haakarmbak multidisciplinair",
-        "aantal": 20
+        "aantal": 19
     },
     {
         "afkorting": "VC",
@@ -907,7 +907,7 @@
     {
         "afkorting": "CVD-B",
         "type": "Commandant van dienst Brandweer",
-        "aantal": 19
+        "aantal": 18
     },
     {
         "afkorting": "AC-CC",
@@ -957,7 +957,7 @@
     {
         "afkorting": "GIM-ROT",
         "type": "Geo informatie medewerker ROT",
-        "aantal": 1
+        "aantal": 2
     },
     {
         "afkorting": "HIN-B",
@@ -972,7 +972,7 @@
     {
         "afkorting": "HOVD-B",
         "type": "Hoofdofficier van dienst Brandweer",
-        "aantal": 50
+        "aantal": 51
     },
     {
         "afkorting": "HOVD-HB",
@@ -982,12 +982,12 @@
     {
         "afkorting": "IM-COPI",
         "type": "Informatiemanager COPI",
-        "aantal": 40
+        "aantal": 39
     },
     {
         "afkorting": "IM-ROT",
         "type": "Informatiemanager ROT",
-        "aantal": 4
+        "aantal": 5
     },
     {
         "afkorting": "L-COPI",
@@ -1207,7 +1207,7 @@
     {
         "afkorting": "TS-BB",
         "type": "Tankautospuit bedrijfsbrandweer",
-        "aantal": 38
+        "aantal": 40
     },
     {
         "afkorting": "SB-BB",
@@ -1322,12 +1322,12 @@
     {
         "afkorting": "BMA-OTO",
         "type": "Bijzonder materieel aanhanger t.b.v. opleiding, training en oefenen",
-        "aantal": 128
+        "aantal": 129
     },
     {
         "afkorting": "BMH-OTO",
         "type": "Bijzonder materieel haakarmbak t.b.v. opleiding, training en oefenen",
-        "aantal": 49
+        "aantal": 50
     },
     {
         "afkorting": "TS-OTO",
