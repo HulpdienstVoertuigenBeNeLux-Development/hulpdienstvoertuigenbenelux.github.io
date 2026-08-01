@@ -2,42 +2,47 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 670
+        "aantal": 822
+    },
+    {
+        "afkorting": "DAT",
+        "type": "Dienstauto terreinvaardig",
+        "aantal": 5
     },
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 224
+        "aantal": 705
     },
     {
         "afkorting": "PM",
         "type": "Personeel/materieelvoertuig",
-        "aantal": 84
+        "aantal": 142
     },
     {
         "afkorting": "PMT",
         "type": "Personeel/materieelvoertuig terreinvaardig",
-        "aantal": 10
+        "aantal": 19
     },
     {
         "afkorting": "BRV-K",
         "type": "Brandweervaartuig klein",
-        "aantal": 24
+        "aantal": 40
     },
     {
         "afkorting": "BRV-M",
         "type": "Brandweervaartuig middel",
-        "aantal": 49
+        "aantal": 81
     },
     {
         "afkorting": "BRV-G",
         "type": "Brandweervaartuig groot",
-        "aantal": 3
+        "aantal": 4
     },
     {
         "afkorting": "BRV-Z",
         "type": "Brandweervaartuig zeer groot",
-        "aantal": 4
+        "aantal": 6
     },
     {
         "afkorting": "BRV-WSC",
@@ -47,7 +52,7 @@
     {
         "afkorting": "ON-BRV",
         "type": "Ondersteuningsteam brandweervaartuig",
-        "aantal": 2
+        "aantal": 7
     },
     {
         "afkorting": "HBV",
@@ -57,17 +62,17 @@
     {
         "afkorting": "OR",
         "type": "Oppervlakte reddingsteam voertuig",
-        "aantal": 34
+        "aantal": 44
     },
     {
         "afkorting": "WO",
         "type": "Waterongevallenvoertuig",
-        "aantal": 52
+        "aantal": 66
     },
     {
         "afkorting": "WOA",
         "type": "Waterongevallen materieel aanhanger",
-        "aantal": 3
+        "aantal": 4
     },
     {
         "afkorting": "WOH",
@@ -92,7 +97,7 @@
     {
         "afkorting": "GP",
         "type": "Gaspakteam voertuig",
-        "aantal": 6
+        "aantal": 7
     },
     {
         "afkorting": "GPH",
@@ -102,12 +107,17 @@
     {
         "afkorting": "GS",
         "type": "Gevaarlijke stoffen voertuig",
-        "aantal": 4
+        "aantal": 9
+    },
+    {
+        "afkorting": "GSA",
+        "type": "Gevaarlijke stoffen aanhanger",
+        "aantal": 1
     },
     {
         "afkorting": "GSH",
         "type": "Gevaarlijke stoffen haakarmbak",
-        "aantal": 11
+        "aantal": 15
     },
     {
         "afkorting": "GSH-PBM",
@@ -122,7 +132,7 @@
     {
         "afkorting": "BOH-DC",
         "type": "Basis ontsmetting haakarmbak decontaminatie",
-        "aantal": 16
+        "aantal": 21
     },
     {
         "afkorting": "GOH-DC",
@@ -132,12 +142,12 @@
     {
         "afkorting": "GOH-LO",
         "type": "Grootschalige ontsmetting haakarmbak logistiek",
-        "aantal": 6
+        "aantal": 7
     },
     {
         "afkorting": "ON-GO",
         "type": "Ondersteuningsteam grootschalige ontsmetting",
-        "aantal": 1
+        "aantal": 4
     },
     {
         "afkorting": "OS",
@@ -152,7 +162,7 @@
     {
         "afkorting": "VK-GS",
         "type": "Verkenningsvoertuig IBGS",
-        "aantal": 37
+        "aantal": 75
     },
     {
         "afkorting": "OG",
@@ -162,17 +172,22 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 800
+        "aantal": 1149
     },
     {
         "afkorting": "TST",
         "type": "Tankautospuit terreinvaardig",
-        "aantal": 74
+        "aantal": 127
+    },
+    {
+        "afkorting": "TS-4",
+        "type": "Tankautospuit 4 mans bezetting",
+        "aantal": 1
     },
     {
         "afkorting": "TS-IB",
         "type": "Tankautospuit industrie brandbestrijding",
-        "aantal": 9
+        "aantal": 14
     },
     {
         "afkorting": "TS-RO",
@@ -182,7 +197,7 @@
     {
         "afkorting": "TS-SK",
         "type": "TS Slagkracht",
-        "aantal": 2
+        "aantal": 4
     },
     {
         "afkorting": "BMA-NWS",
@@ -202,37 +217,37 @@
     {
         "afkorting": "HC",
         "type": "Handcrew voertuig",
-        "aantal": 6
+        "aantal": 12
     },
     {
         "afkorting": "NBH",
         "type": "Natuurbrandbestrijdingshaakarmbak",
-        "aantal": 2
+        "aantal": 3
     },
     {
         "afkorting": "TST-NB",
         "type": "Tankautospuit terreinvaardig natuurbrandbestrijding",
-        "aantal": 88
+        "aantal": 149
     },
     {
         "afkorting": "VKT-NB",
         "type": "Verkenningsvoertuig terreinvaardig natuurbrandbestrijding",
-        "aantal": 6
+        "aantal": 12
     },
     {
         "afkorting": "AL",
         "type": "Autoladder",
-        "aantal": 69
+        "aantal": 80
     },
     {
         "afkorting": "HW-IB",
         "type": "Hoogwerker industrie brandbestrijding",
-        "aantal": 1
+        "aantal": 2
     },
     {
         "afkorting": "HW",
         "type": "Hoogwerker",
-        "aantal": 87
+        "aantal": 97
     },
     {
         "afkorting": "AS",
@@ -242,12 +257,17 @@
     {
         "afkorting": "AS-IB",
         "type": "Autospuit industrie brandbestrijding",
-        "aantal": 9
+        "aantal": 13
     },
     {
         "afkorting": "SI",
         "type": "Snel inzetbaar voertuig",
-        "aantal": 11
+        "aantal": 19
+    },
+    {
+        "afkorting": "BM-BBM",
+        "type": "Bijzonder materieel voertuig met bijzondere brandbestrijdingsmiddelen",
+        "aantal": 1
     },
     {
         "afkorting": "BMH-BBM",
@@ -272,7 +292,7 @@
     {
         "afkorting": "BMH-BRB",
         "type": "Bijzonder materieel haakarmbak met blusrobot",
-        "aantal": 1
+        "aantal": 3
     },
     {
         "afkorting": "BU-UHD",
@@ -282,7 +302,12 @@
     {
         "afkorting": "PM-UHD",
         "type": "Personeel/materieelvoertuig ultra hoge druk blussysteem",
-        "aantal": 3
+        "aantal": 5
+    },
+    {
+        "afkorting": "ON-UHD",
+        "type": "Ondersteuningsteam ultra hoge druk blussysteem",
+        "aantal": 1
     },
     {
         "afkorting": "BMH-SIB",
@@ -292,17 +317,17 @@
     {
         "afkorting": "RI",
         "type": "Rietdak brandbestrijdingsteam",
-        "aantal": 3
+        "aantal": 7
     },
     {
         "afkorting": "RIA",
         "type": "Rietdak brandbestrijdingsteam aanhanger",
-        "aantal": 2
+        "aantal": 6
     },
     {
         "afkorting": "PBA",
         "type": "Poederblusaanhanger",
-        "aantal": 13
+        "aantal": 16
     },
     {
         "afkorting": "PBH",
@@ -312,22 +337,22 @@
     {
         "afkorting": "CT",
         "type": "Crashtender",
-        "aantal": 15
+        "aantal": 25
     },
     {
         "afkorting": "SB",
         "type": "Schuimblusvoertuig",
-        "aantal": 22
+        "aantal": 26
     },
     {
         "afkorting": "SBA",
         "type": "Schuimblusaanhanger",
-        "aantal": 12
+        "aantal": 14
     },
     {
         "afkorting": "SBH",
         "type": "Schuimblushaakarmbak",
-        "aantal": 19
+        "aantal": 21
     },
     {
         "afkorting": "SBT",
@@ -337,7 +362,7 @@
     {
         "afkorting": "SB-BA",
         "type": "Schuimblusvoertuig met blusarm",
-        "aantal": 7
+        "aantal": 9
     },
     {
         "afkorting": "SVA",
@@ -362,22 +387,22 @@
     {
         "afkorting": "KW",
         "type": "Kleinschalige watervoorziening voertuig",
-        "aantal": 8
+        "aantal": 11
     },
     {
         "afkorting": "MSA",
         "type": "Motorspuitaanhanger",
-        "aantal": 79
+        "aantal": 95
     },
     {
         "afkorting": "SL-KW",
         "type": "Slangenvoertuig kleinschalige watervoorziening",
-        "aantal": 18
+        "aantal": 31
     },
     {
         "afkorting": "SLA-KW",
         "type": "Slangenaanhanger kleinschalige watervoorziening",
-        "aantal": 8
+        "aantal": 9
     },
     {
         "afkorting": "BMH-GW",
@@ -397,17 +422,17 @@
     {
         "afkorting": "DP-GW",
         "type": "Dompelpompvoertuig grootschalige watervoorziening",
-        "aantal": 2
+        "aantal": 4
     },
     {
         "afkorting": "DPA-GW",
         "type": "Dompelpompaanhanger grootschalige watervoorziening",
-        "aantal": 16
+        "aantal": 17
     },
     {
         "afkorting": "DPH-GW",
         "type": "Dompelpomphaakarmbak grootschalige watervoorziening",
-        "aantal": 61
+        "aantal": 78
     },
     {
         "afkorting": "SL-GW",
@@ -417,7 +442,7 @@
     {
         "afkorting": "SLH-GW",
         "type": "Slangenhaakarmbak grootschalige watervoorziening",
-        "aantal": 30
+        "aantal": 36
     },
     {
         "afkorting": "ON-GW",
@@ -432,7 +457,7 @@
     {
         "afkorting": "BMH-TPB",
         "type": "Bijzonder materieel haakarmbak tankput brandbestrijding",
-        "aantal": 1
+        "aantal": 3
     },
     {
         "afkorting": "MSH-TPB",
@@ -457,7 +482,7 @@
     {
         "afkorting": "SVH-TPB",
         "type": "Schuimvormend middel haakarmbak tankput brandbestrijding",
-        "aantal": 7
+        "aantal": 8
     },
     {
         "afkorting": "WKA-TPB",
@@ -477,22 +502,22 @@
     {
         "afkorting": "WT",
         "type": "Watertankwagen",
-        "aantal": 40
+        "aantal": 77
     },
     {
         "afkorting": "WTT",
         "type": "Watertankwagen terreinvaardig",
-        "aantal": 5
+        "aantal": 8
     },
     {
         "afkorting": "WT-G",
         "type": "Watertankwagen groot",
-        "aantal": 2
+        "aantal": 12
     },
     {
         "afkorting": "WTH",
         "type": "Watertankhaakarmbak",
-        "aantal": 24
+        "aantal": 29
     },
     {
         "afkorting": "WTA-G",
@@ -502,17 +527,17 @@
     {
         "afkorting": "WTH-G",
         "type": "Watertankhaakarmbak groot",
-        "aantal": 9
+        "aantal": 10
     },
     {
         "afkorting": "FR-B",
         "type": "First responder brandweer",
-        "aantal": 42
+        "aantal": 56
     },
     {
         "afkorting": "MA",
         "type": "Medische assistentie voertuig",
-        "aantal": 4
+        "aantal": 6
     },
     {
         "afkorting": "PAT",
@@ -522,7 +547,7 @@
     {
         "afkorting": "HV",
         "type": "Hulpverleningsvoertuig",
-        "aantal": 31
+        "aantal": 47
     },
     {
         "afkorting": "HVA",
@@ -532,7 +557,7 @@
     {
         "afkorting": "HVH",
         "type": "Hulpverleningshaakarmbak",
-        "aantal": 16
+        "aantal": 20
     },
     {
         "afkorting": "HVT",
@@ -542,7 +567,7 @@
     {
         "afkorting": "HV-KR",
         "type": "Hulpverleningsvoertuig met kraan",
-        "aantal": 38
+        "aantal": 46
     },
     {
         "afkorting": "ON-HV",
@@ -555,19 +580,24 @@
         "aantal": 2
     },
     {
+        "afkorting": "BMH-SOB",
+        "type": "Bijzonder materieel haakarmbak spoorsloot overbrugging",
+        "aantal": 1
+    },
+    {
         "afkorting": "LIA",
         "type": "Verlichtingsaanhanger",
-        "aantal": 3
+        "aantal": 6
     },
     {
         "afkorting": "LIH-RTV",
         "type": "Verlichtingshaakarmbak rampterrein verlichting",
-        "aantal": 16
+        "aantal": 19
     },
     {
         "afkorting": "RH",
         "type": "Redteam hoogteverschillen",
-        "aantal": 3
+        "aantal": 4
     },
     {
         "afkorting": "SHH-LO",
@@ -597,32 +627,32 @@
     {
         "afkorting": "VI",
         "type": "Veetakel installatie voertuig",
-        "aantal": 6
+        "aantal": 9
     },
     {
         "afkorting": "VIA",
         "type": "Veetakel installatie aanhanger",
-        "aantal": 21
+        "aantal": 38
     },
     {
         "afkorting": "BM-VTHS",
         "type": "Bijzonder materieel veiligheidstester hoogspanning",
-        "aantal": 3
+        "aantal": 5
     },
     {
         "afkorting": "AB",
         "type": "Adembescherming voertuig",
-        "aantal": 11
+        "aantal": 13
     },
     {
         "afkorting": "ABH",
         "type": "Adembescherming haakarmbak",
-        "aantal": 12
+        "aantal": 13
     },
     {
         "afkorting": "AH",
         "type": "Arbeidshygiëne voertuig",
-        "aantal": 10
+        "aantal": 16
     },
     {
         "afkorting": "AHH",
@@ -637,7 +667,7 @@
     {
         "afkorting": "BSA",
         "type": "Brandstoftankaanhanger",
-        "aantal": 12
+        "aantal": 13
     },
     {
         "afkorting": "BSH",
@@ -647,12 +677,12 @@
     {
         "afkorting": "GM",
         "type": "Gereedschap/materieelvoertuig",
-        "aantal": 127
+        "aantal": 145
     },
     {
         "afkorting": "GMT",
         "type": "Gereedschap/materieelvoertuig terreinvaardig",
-        "aantal": 5
+        "aantal": 6
     },
     {
         "afkorting": "GMH",
@@ -672,7 +702,7 @@
     {
         "afkorting": "HA",
         "type": "Haakarmvoertuig",
-        "aantal": 221
+        "aantal": 244
     },
     {
         "afkorting": "HA-KR",
@@ -702,7 +732,7 @@
     {
         "afkorting": "LO",
         "type": "Logistiek voertuig",
-        "aantal": 105
+        "aantal": 109
     },
     {
         "afkorting": "LO-KR",
@@ -712,7 +742,7 @@
     {
         "afkorting": "LOA",
         "type": "Logistiek aanhanger",
-        "aantal": 24
+        "aantal": 26
     },
     {
         "afkorting": "LOH",
@@ -727,7 +757,7 @@
     {
         "afkorting": "LOH-O",
         "type": "Logistiek haakarmbak open uitvoering",
-        "aantal": 23
+        "aantal": 24
     },
     {
         "afkorting": "LO-ICT",
@@ -747,12 +777,12 @@
     {
         "afkorting": "QR",
         "type": "Quick response team",
-        "aantal": 5
+        "aantal": 6
     },
     {
         "afkorting": "SAA",
         "type": "Stroom aggregaat aanhanger",
-        "aantal": 13
+        "aantal": 16
     },
     {
         "afkorting": "SAH",
@@ -762,7 +792,7 @@
     {
         "afkorting": "BM-TES",
         "type": "Test eenheid",
-        "aantal": 1
+        "aantal": 2
     },
     {
         "afkorting": "VK",
@@ -777,7 +807,7 @@
     {
         "afkorting": "VK-TDV",
         "type": "Verkenningsvoertuig team digitale verkenning",
-        "aantal": 14
+        "aantal": 17
     },
     {
         "afkorting": "VKL-DRG",
@@ -785,8 +815,18 @@
         "aantal": 4
     },
     {
+        "afkorting": "BUV-OWD",
+        "type": "Bijzondere uitrusting vaartuig onderwater drone",
+        "aantal": 1
+    },
+    {
         "afkorting": "BUV-SN",
         "type": "Bijzondere uitrusting vaartuig sonar",
+        "aantal": 2
+    },
+    {
+        "afkorting": "ON-VZ",
+        "type": "Ondersteuningsteam verzorging",
         "aantal": 2
     },
     {
@@ -797,17 +837,17 @@
     {
         "afkorting": "VZA",
         "type": "Verzorgingsaanhanger",
-        "aantal": 3
+        "aantal": 4
     },
     {
         "afkorting": "VZH",
         "type": "Verzorgingshaakarmbak",
-        "aantal": 34
+        "aantal": 36
     },
     {
         "afkorting": "VZA-WC",
         "type": "Verzorgingsaanhanger met WC",
-        "aantal": 4
+        "aantal": 5
     },
     {
         "afkorting": "VZH-WC",
@@ -817,7 +857,7 @@
     {
         "afkorting": "CI-B",
         "type": "Coördinatie- en informatievoorzieningsvoertuig Brandweer",
-        "aantal": 1
+        "aantal": 3
     },
     {
         "afkorting": "COH-B",
@@ -832,12 +872,12 @@
     {
         "afkorting": "CO-MU",
         "type": "Commando voertuig multidisciplinair",
-        "aantal": 11
+        "aantal": 17
     },
     {
         "afkorting": "COH-MU",
         "type": "Commando haakarmbak multidisciplinair",
-        "aantal": 18
+        "aantal": 19
     },
     {
         "afkorting": "VC",
@@ -847,7 +887,7 @@
     {
         "afkorting": "VD-MOP",
         "type": "Verbindingsdienst voertuig mobiel opstelpunt",
-        "aantal": 3
+        "aantal": 5
     },
     {
         "afkorting": "COP-DCU",
@@ -867,7 +907,7 @@
     {
         "afkorting": "CVD-B",
         "type": "Commandant van dienst Brandweer",
-        "aantal": 17
+        "aantal": 18
     },
     {
         "afkorting": "AC-CC",
@@ -887,12 +927,17 @@
     {
         "afkorting": "AGS",
         "type": "Adviseur gevaarlijke stoffen",
-        "aantal": 24
+        "aantal": 29
+    },
+    {
+        "afkorting": "AGS-ROT",
+        "type": "Adviseur gevaarlijke stoffen ROT",
+        "aantal": 1
     },
     {
         "afkorting": "CTL-B",
         "type": "Centralist brandweer",
-        "aantal": 4
+        "aantal": 5
     },
     {
         "afkorting": "C-VE",
@@ -927,7 +972,7 @@
     {
         "afkorting": "HOVD-B",
         "type": "Hoofdofficier van dienst Brandweer",
-        "aantal": 47
+        "aantal": 51
     },
     {
         "afkorting": "HOVD-HB",
@@ -937,7 +982,7 @@
     {
         "afkorting": "IM-COPI",
         "type": "Informatiemanager COPI",
-        "aantal": 36
+        "aantal": 39
     },
     {
         "afkorting": "IM-ROT",
@@ -962,12 +1007,12 @@
     {
         "afkorting": "OVD-B",
         "type": "Officier van dienst Brandweer",
-        "aantal": 126
+        "aantal": 142
     },
     {
         "afkorting": "OVD-BZ",
         "type": "Officier van dienst bevolkingszorg",
-        "aantal": 23
+        "aantal": 30
     },
     {
         "afkorting": "OVD-HB",
@@ -987,7 +1032,7 @@
     {
         "afkorting": "PC-L",
         "type": "Pelotonscommandant logistiek",
-        "aantal": 5
+        "aantal": 6
     },
     {
         "afkorting": "PR",
@@ -1002,7 +1047,7 @@
     {
         "afkorting": "TBO",
         "type": "Team brandonderzoek",
-        "aantal": 21
+        "aantal": 22
     },
     {
         "afkorting": "TC-B",
@@ -1012,7 +1057,7 @@
     {
         "afkorting": "TD",
         "type": "Technische dienst",
-        "aantal": 49
+        "aantal": 56
     },
     {
         "afkorting": "TL-QRT",
@@ -1037,22 +1082,22 @@
     {
         "afkorting": "VD",
         "type": "Verbindingsdienst",
-        "aantal": 1
+        "aantal": 2
     },
     {
         "afkorting": "VL-B",
         "type": "Voorlichter Brandweer",
-        "aantal": 26
+        "aantal": 27
     },
     {
         "afkorting": "DA-DF",
         "type": "Dienstauto Defensie",
-        "aantal": 1
+        "aantal": 2
     },
     {
         "afkorting": "DB-DF",
         "type": "Dienstbus Defensie",
-        "aantal": 9
+        "aantal": 18
     },
     {
         "afkorting": "PM-DF",
@@ -1067,12 +1112,12 @@
     {
         "afkorting": "TS-DF",
         "type": "Tankautospuit Defensie",
-        "aantal": 11
+        "aantal": 18
     },
     {
         "afkorting": "TST-DF",
         "type": "Tankautospuit terreinvaardig Defensie",
-        "aantal": 13
+        "aantal": 16
     },
     {
         "afkorting": "HW-DF",
@@ -1097,7 +1142,7 @@
     {
         "afkorting": "CT-DF",
         "type": "Crashtender Defensie",
-        "aantal": 24
+        "aantal": 26
     },
     {
         "afkorting": "FR-DF",
@@ -1122,7 +1167,7 @@
     {
         "afkorting": "OSC-DF",
         "type": "On scene commander Defensie",
-        "aantal": 12
+        "aantal": 13
     },
     {
         "afkorting": "VC-DF",
@@ -1152,22 +1197,22 @@
     {
         "afkorting": "DA-BB",
         "type": "Dienstauto bedrijfsbrandweer",
-        "aantal": 8
+        "aantal": 10
     },
     {
         "afkorting": "DB-BB",
         "type": "Dienstbus bedrijfsbrandweer",
-        "aantal": 7
+        "aantal": 10
     },
     {
         "afkorting": "TS-BB",
         "type": "Tankautospuit bedrijfsbrandweer",
-        "aantal": 8
+        "aantal": 40
     },
     {
         "afkorting": "SB-BB",
         "type": "Schuimblusvoertuig bedrijfsbrandweer",
-        "aantal": 12
+        "aantal": 17
     },
     {
         "afkorting": "HV-BB",
@@ -1177,7 +1222,7 @@
     {
         "afkorting": "HA-BB",
         "type": "Haakarmvoertuig bedrijfsbrandweer",
-        "aantal": 11
+        "aantal": 16
     },
     {
         "afkorting": "OVD-BB",
@@ -1187,7 +1232,7 @@
     {
         "afkorting": "PM-BB",
         "type": "Personeel/materieelvoertuig bedrijfsbrandweer",
-        "aantal": 7
+        "aantal": 11
     },
     {
         "afkorting": "GS-BB",
@@ -1197,6 +1242,11 @@
     {
         "afkorting": "GSH-BB",
         "type": "Gevaarlijke stoffen haakarmbak bedrijfsbrandweer",
+        "aantal": 1
+    },
+    {
+        "afkorting": "AS-BB",
+        "type": "Autospuit bedrijfsbrandweer",
         "aantal": 1
     },
     {
@@ -1242,7 +1292,7 @@
     {
         "afkorting": "SI-BB",
         "type": "Snel inzetbaar voertuig bedrijfsbrandweer",
-        "aantal": 1
+        "aantal": 2
     },
     {
         "afkorting": "LO-BB",
@@ -1272,17 +1322,17 @@
     {
         "afkorting": "BMA-OTO",
         "type": "Bijzonder materieel aanhanger t.b.v. opleiding, training en oefenen",
-        "aantal": 103
+        "aantal": 129
     },
     {
         "afkorting": "BMH-OTO",
         "type": "Bijzonder materieel haakarmbak t.b.v. opleiding, training en oefenen",
-        "aantal": 48
+        "aantal": 50
     },
     {
         "afkorting": "TS-OTO",
         "type": "Tankautospuit t.b.v. opleiding, training en oefenen",
-        "aantal": 25
+        "aantal": 27
     },
     {
         "afkorting": "HV-OTO",
@@ -1307,7 +1357,7 @@
     {
         "afkorting": "CHINOOK",
         "type": "Chinook Defensie t.b.v. FBO",
-        "aantal": 22
+        "aantal": 24
     },
     {
         "afkorting": "COUGAR",
