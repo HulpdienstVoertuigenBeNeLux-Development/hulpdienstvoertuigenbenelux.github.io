@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1149
+        "aantal": 1148
     },
     {
         "afkorting": "TST",
@@ -322,7 +322,7 @@
     {
         "afkorting": "RIA",
         "type": "Rietdak brandbestrijdingsteam aanhanger",
-        "aantal": 6
+        "aantal": 7
     },
     {
         "afkorting": "PBA",
@@ -392,7 +392,7 @@
     {
         "afkorting": "MSA",
         "type": "Motorspuitaanhanger",
-        "aantal": 95
+        "aantal": 96
     },
     {
         "afkorting": "SL-KW",
@@ -882,7 +882,7 @@
     {
         "afkorting": "VC",
         "type": "Verbindingscommando voertuig",
-        "aantal": 5
+        "aantal": 4
     },
     {
         "afkorting": "VD-MOP",
