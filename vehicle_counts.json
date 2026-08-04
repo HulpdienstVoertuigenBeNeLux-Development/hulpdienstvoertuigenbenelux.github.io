@@ -32,7 +32,7 @@
     {
         "afkorting": "BRV-M",
         "type": "Brandweervaartuig middel",
-        "aantal": 80
+        "aantal": 78
     },
     {
         "afkorting": "BRV-G",
@@ -88,6 +88,11 @@
         "afkorting": "WOV-K",
         "type": "Waterongevallenvaartuig klein",
         "aantal": 1
+    },
+    {
+        "afkorting": "WOV-M",
+        "type": "Brandweervaartuig middel",
+        "aantal": 2
     },
     {
         "afkorting": "WOV-M",
