@@ -91,13 +91,8 @@
     },
     {
         "afkorting": "WOV-M",
-        "type": "Brandweervaartuig middel",
-        "aantal": 2
-    },
-    {
-        "afkorting": "WOV-M",
         "type": "Waterongevallenvaartuig middel",
-        "aantal": 7
+        "aantal": 9
     },
     {
         "afkorting": "GP",
@@ -1372,6 +1367,6 @@
     {
         "afkorting": "COUGAR",
         "type": "Cougar Defensie t.b.v. FBO",
-        "aantal": 17
+        "aantal": 34
     }
 ]
