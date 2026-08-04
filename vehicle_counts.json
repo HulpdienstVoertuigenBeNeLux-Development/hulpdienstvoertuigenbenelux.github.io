@@ -17,7 +17,7 @@
     {
         "afkorting": "PM",
         "type": "Personeel/materieelvoertuig",
-        "aantal": 142
+        "aantal": 141
     },
     {
         "afkorting": "PMT",
@@ -212,7 +212,7 @@
     {
         "afkorting": "BMH-NB",
         "type": "Bijzonder materieel haakarmbak met natuurbrand bestrijdingmaterieel",
-        "aantal": 1
+        "aantal": 2
     },
     {
         "afkorting": "HC",
@@ -222,7 +222,7 @@
     {
         "afkorting": "NBH",
         "type": "Natuurbrandbestrijdingshaakarmbak",
-        "aantal": 3
+        "aantal": 2
     },
     {
         "afkorting": "TST-NB",
@@ -247,12 +247,12 @@
     {
         "afkorting": "HW",
         "type": "Hoogwerker",
-        "aantal": 97
+        "aantal": 96
     },
     {
         "afkorting": "AS",
         "type": "Autospuit",
-        "aantal": 2
+        "aantal": 1
     },
     {
         "afkorting": "AS-IB",
@@ -897,7 +897,7 @@
     {
         "afkorting": "AC-B",
         "type": "Algemeen commandant brandweer",
-        "aantal": 3
+        "aantal": 4
     },
     {
         "afkorting": "CDT-B",
@@ -907,7 +907,7 @@
     {
         "afkorting": "CVD-B",
         "type": "Commandant van dienst Brandweer",
-        "aantal": 18
+        "aantal": 17
     },
     {
         "afkorting": "AC-CC",
@@ -1000,6 +1000,11 @@
         "aantal": 1
     },
     {
+        "afkorting": "LA-TDV",
+        "type": "Landelijk adviseur team digitale verkenning",
+        "aantal": 1
+    },
+    {
         "afkorting": "OSC",
         "type": "On scene commander",
         "aantal": 3
@@ -1057,7 +1062,7 @@
     {
         "afkorting": "TD",
         "type": "Technische dienst",
-        "aantal": 56
+        "aantal": 57
     },
     {
         "afkorting": "TL-QRT",
