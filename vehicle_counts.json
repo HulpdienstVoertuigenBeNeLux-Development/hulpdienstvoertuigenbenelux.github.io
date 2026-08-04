@@ -32,7 +32,7 @@
     {
         "afkorting": "BRV-M",
         "type": "Brandweervaartuig middel",
-        "aantal": 81
+        "aantal": 80
     },
     {
         "afkorting": "BRV-G",
@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1147
+        "aantal": 1152
     },
     {
         "afkorting": "TST",
@@ -247,7 +247,7 @@
     {
         "afkorting": "HW",
         "type": "Hoogwerker",
-        "aantal": 96
+        "aantal": 99
     },
     {
         "afkorting": "AS",
@@ -342,7 +342,7 @@
     {
         "afkorting": "SB",
         "type": "Schuimblusvoertuig",
-        "aantal": 26
+        "aantal": 27
     },
     {
         "afkorting": "SBA",
@@ -512,7 +512,7 @@
     {
         "afkorting": "WT-G",
         "type": "Watertankwagen groot",
-        "aantal": 12
+        "aantal": 13
     },
     {
         "afkorting": "WTH",
@@ -707,7 +707,7 @@
     {
         "afkorting": "HA-KR",
         "type": "Haakarmvoertuig met kraan",
-        "aantal": 28
+        "aantal": 30
     },
     {
         "afkorting": "HAT",
