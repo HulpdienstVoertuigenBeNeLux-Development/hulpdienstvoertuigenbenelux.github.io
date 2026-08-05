@@ -12,17 +12,17 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 705
+        "aantal": 706
     },
     {
         "afkorting": "PM",
         "type": "Personeel/materieelvoertuig",
-        "aantal": 141
+        "aantal": 140
     },
     {
         "afkorting": "PMT",
         "type": "Personeel/materieelvoertuig terreinvaardig",
-        "aantal": 19
+        "aantal": 15
     },
     {
         "afkorting": "BRV-K",
@@ -232,7 +232,7 @@
     {
         "afkorting": "VKT-NB",
         "type": "Verkenningsvoertuig terreinvaardig natuurbrandbestrijding",
-        "aantal": 12
+        "aantal": 18
     },
     {
         "afkorting": "AL",
@@ -1367,6 +1367,6 @@
     {
         "afkorting": "COUGAR",
         "type": "Cougar Defensie t.b.v. FBO",
-        "aantal": 34
+        "aantal": 17
     }
 ]
