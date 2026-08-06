@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 822
+        "aantal": 823
     },
     {
         "afkorting": "DAT",
@@ -12,7 +12,7 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 706
+        "aantal": 705
     },
     {
         "afkorting": "PM",
@@ -232,7 +232,7 @@
     {
         "afkorting": "VKT-NB",
         "type": "Verkenningsvoertuig terreinvaardig natuurbrandbestrijding",
-        "aantal": 18
+        "aantal": 17
     },
     {
         "afkorting": "AL",
