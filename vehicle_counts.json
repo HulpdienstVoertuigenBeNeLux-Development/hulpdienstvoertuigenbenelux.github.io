@@ -842,7 +842,12 @@
     {
         "afkorting": "VZH",
         "type": "Verzorgingshaakarmbak",
-        "aantal": 36
+        "aantal": 35
+    },
+    {
+        "afkorting": "VZH-KA",
+        "type": "Verzorgingshaakarmbak met kantine",
+        "aantal": 1
     },
     {
         "afkorting": "VZA-WC",
