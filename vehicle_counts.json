@@ -12,7 +12,7 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 705
+        "aantal": 706
     },
     {
         "afkorting": "PM",
@@ -32,7 +32,7 @@
     {
         "afkorting": "BRV-M",
         "type": "Brandweervaartuig middel",
-        "aantal": 79
+        "aantal": 78
     },
     {
         "afkorting": "BRV-G",
@@ -677,7 +677,7 @@
     {
         "afkorting": "GM",
         "type": "Gereedschap/materieelvoertuig",
-        "aantal": 139
+        "aantal": 140
     },
     {
         "afkorting": "GMT",
@@ -1373,10 +1373,5 @@
         "afkorting": "COUGAR",
         "type": "Cougar Defensie t.b.v. FBO",
         "aantal": 17
-    },
-    {
-        "afkorting": "DB 9",
-        "type": "Dienstbus",
-        "aantal": 1
     }
 ]
