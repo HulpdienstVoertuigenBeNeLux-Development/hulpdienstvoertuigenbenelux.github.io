@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 823
+        "aantal": 824
     },
     {
         "afkorting": "DAT",
@@ -12,7 +12,7 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 705
+        "aantal": 706
     },
     {
         "afkorting": "PM",
@@ -652,7 +652,7 @@
     {
         "afkorting": "AH",
         "type": "Arbeidshygiëne voertuig",
-        "aantal": 16
+        "aantal": 17
     },
     {
         "afkorting": "AHH",
@@ -732,7 +732,7 @@
     {
         "afkorting": "LO",
         "type": "Logistiek voertuig",
-        "aantal": 109
+        "aantal": 107
     },
     {
         "afkorting": "LO-KR",
