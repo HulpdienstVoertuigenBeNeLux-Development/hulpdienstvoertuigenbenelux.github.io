@@ -695,6 +695,11 @@
         "aantal": 6
     },
     {
+        "afkorting": "TK-K",
+        "type": "Trekker Klein",
+        "aantal": 1
+    },
+    {
         "afkorting": "TK-G",
         "type": "Trekker groot",
         "aantal": 6
