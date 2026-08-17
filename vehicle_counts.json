@@ -1373,5 +1373,10 @@
         "afkorting": "COUGAR",
         "type": "Cougar Defensie t.b.v. FBO",
         "aantal": 17
+    },
+    {
+        "afkorting": "VW-LO",
+        "type": "Vrachtwagen Logistiek",
+        "aantal": 1
     }
 ]
