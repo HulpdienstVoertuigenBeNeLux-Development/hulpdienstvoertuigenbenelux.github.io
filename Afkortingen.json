@@ -272,6 +272,10 @@
         "type": "Bijzonder materieel aanhanger met natuurbrandbestrijding waterscherm"
     },
     {
+        "afkorting": "BM-NB",
+        "type": "Bijzonder materieel voertuig met natuurbrandbestrijding materieel"
+    },
+    {
         "afkorting": "BMA-NB",
         "type": "Bijzonder materieel aanhanger met natuurbrandbestrijding materieel"
     },
