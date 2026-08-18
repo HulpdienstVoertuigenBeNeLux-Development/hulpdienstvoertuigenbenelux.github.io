@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 821
+        "aantal": 820
     },
     {
         "afkorting": "DAT",
@@ -677,12 +677,12 @@
     {
         "afkorting": "GM",
         "type": "Gereedschap/materieelvoertuig",
-        "aantal": 140
+        "aantal": 139
     },
     {
         "afkorting": "GMT",
         "type": "Gereedschap/materieelvoertuig terreinvaardig",
-        "aantal": 6
+        "aantal": 5
     },
     {
         "afkorting": "GMH",
@@ -732,7 +732,7 @@
     {
         "afkorting": "LO",
         "type": "Logistiek voertuig",
-        "aantal": 107
+        "aantal": 108
     },
     {
         "afkorting": "LO-KR",
@@ -1332,7 +1332,7 @@
     {
         "afkorting": "BMA-OTO",
         "type": "Bijzonder materieel aanhanger t.b.v. opleiding, training en oefenen",
-        "aantal": 129
+        "aantal": 135
     },
     {
         "afkorting": "BMH-OTO",
@@ -1373,10 +1373,5 @@
         "afkorting": "COUGAR",
         "type": "Cougar Defensie t.b.v. FBO",
         "aantal": 17
-    },
-    {
-        "afkorting": "VW-LO",
-        "type": "Vrachtwagen Logistiek",
-        "aantal": 1
     }
 ]
