@@ -842,7 +842,12 @@
     {
         "afkorting": "VZH",
         "type": "Verzorgingshaakarmbak",
-        "aantal": 35
+        "aantal": 34
+    },
+    {
+        "afkorting": "VZH",
+        "type": "Verzorgings haakarmbak",
+        "aantal": 1
     },
     {
         "afkorting": "VZH-KA",
