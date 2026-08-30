@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1150
+        "aantal": 1151
     },
     {
         "afkorting": "TST",
@@ -1342,7 +1342,7 @@
     {
         "afkorting": "TS-OTO",
         "type": "Tankautospuit t.b.v. opleiding, training en oefenen",
-        "aantal": 28
+        "aantal": 27
     },
     {
         "afkorting": "HV-OTO",
