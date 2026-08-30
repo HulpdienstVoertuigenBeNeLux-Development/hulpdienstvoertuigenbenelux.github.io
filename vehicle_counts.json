@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1149
+        "aantal": 1150
     },
     {
         "afkorting": "TST",
@@ -677,7 +677,7 @@
     {
         "afkorting": "GM",
         "type": "Gereedschap/materieelvoertuig",
-        "aantal": 140
+        "aantal": 139
     },
     {
         "afkorting": "GMT",
@@ -842,12 +842,7 @@
     {
         "afkorting": "VZH",
         "type": "Verzorgingshaakarmbak",
-        "aantal": 34
-    },
-    {
-        "afkorting": "VZH",
-        "type": "Verzorgings haakarmbak",
-        "aantal": 1
+        "aantal": 35
     },
     {
         "afkorting": "VZH-KA",
@@ -1062,7 +1057,7 @@
     {
         "afkorting": "TBO",
         "type": "Team brandonderzoek",
-        "aantal": 22
+        "aantal": 23
     },
     {
         "afkorting": "TC-B",
@@ -1347,7 +1342,7 @@
     {
         "afkorting": "TS-OTO",
         "type": "Tankautospuit t.b.v. opleiding, training en oefenen",
-        "aantal": 27
+        "aantal": 28
     },
     {
         "afkorting": "HV-OTO",
