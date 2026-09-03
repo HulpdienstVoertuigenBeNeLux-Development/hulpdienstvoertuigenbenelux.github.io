@@ -12,7 +12,7 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 707
+        "aantal": 708
     },
     {
         "afkorting": "PM",
@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1151
+        "aantal": 1153
     },
     {
         "afkorting": "TST",
@@ -232,7 +232,7 @@
     {
         "afkorting": "VKT-NB",
         "type": "Verkenningsvoertuig terreinvaardig natuurbrandbestrijding",
-        "aantal": 19
+        "aantal": 20
     },
     {
         "afkorting": "AL",
