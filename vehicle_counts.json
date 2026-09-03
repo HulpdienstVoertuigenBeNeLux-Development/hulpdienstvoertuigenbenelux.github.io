@@ -102,7 +102,7 @@
     {
         "afkorting": "GPH",
         "type": "Gaspakteam haakarmbak",
-        "aantal": 2
+        "aantal": 1
     },
     {
         "afkorting": "GS",
@@ -403,11 +403,6 @@
         "afkorting": "SLA-KW",
         "type": "Slangenaanhanger kleinschalige watervoorziening",
         "aantal": 9
-    },
-    {
-        "afkorting": "BMH-GW",
-        "type": "Bijzonder materieel haakarmbak grootschalige watervoorziening",
-        "aantal": 1
     },
     {
         "afkorting": "BU-SO",
