@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1153
+        "aantal": 1151
     },
     {
         "afkorting": "TST",
@@ -247,7 +247,7 @@
     {
         "afkorting": "HW",
         "type": "Hoogwerker",
-        "aantal": 99
+        "aantal": 98
     },
     {
         "afkorting": "AS",
@@ -627,7 +627,7 @@
     {
         "afkorting": "VIA",
         "type": "Veetakel installatie aanhanger",
-        "aantal": 38
+        "aantal": 39
     },
     {
         "afkorting": "BM-VTHS",
