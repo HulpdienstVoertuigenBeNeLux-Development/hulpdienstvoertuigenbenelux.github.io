@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1152
+        "aantal": 1151
     },
     {
         "afkorting": "TST",
@@ -727,7 +727,7 @@
     {
         "afkorting": "LO",
         "type": "Logistiek voertuig",
-        "aantal": 108
+        "aantal": 107
     },
     {
         "afkorting": "LO-KR",
@@ -1327,7 +1327,7 @@
     {
         "afkorting": "BMA-OTO",
         "type": "Bijzonder materieel aanhanger t.b.v. opleiding, training en oefenen",
-        "aantal": 144
+        "aantal": 145
     },
     {
         "afkorting": "BMH-OTO",
