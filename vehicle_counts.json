@@ -227,7 +227,7 @@
     {
         "afkorting": "TST-NB",
         "type": "Tankautospuit terreinvaardig natuurbrandbestrijding",
-        "aantal": 149
+        "aantal": 150
     },
     {
         "afkorting": "VKT-NB",
@@ -972,7 +972,7 @@
     {
         "afkorting": "HOVD-B",
         "type": "Hoofdofficier van dienst Brandweer",
-        "aantal": 51
+        "aantal": 50
     },
     {
         "afkorting": "HOVD-HB",
@@ -992,7 +992,7 @@
     {
         "afkorting": "L-COPI",
         "type": "Leider COPI",
-        "aantal": 4
+        "aantal": 5
     },
     {
         "afkorting": "LA-NB",
