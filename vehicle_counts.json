@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 824
+        "aantal": 827
     },
     {
         "afkorting": "DAT",
@@ -12,7 +12,7 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 708
+        "aantal": 709
     },
     {
         "afkorting": "PM",
@@ -27,7 +27,7 @@
     {
         "afkorting": "BRV-K",
         "type": "Brandweervaartuig klein",
-        "aantal": 41
+        "aantal": 42
     },
     {
         "afkorting": "BRV-M",
@@ -1117,7 +1117,7 @@
     {
         "afkorting": "TS-DF",
         "type": "Tankautospuit Defensie",
-        "aantal": 18
+        "aantal": 19
     },
     {
         "afkorting": "TST-DF",
