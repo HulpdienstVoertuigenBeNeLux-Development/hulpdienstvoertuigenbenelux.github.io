@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 827
+        "aantal": 829
     },
     {
         "afkorting": "DAT",
@@ -12,12 +12,12 @@
     {
         "afkorting": "DB",
         "type": "Dienstbus",
-        "aantal": 709
+        "aantal": 712
     },
     {
         "afkorting": "PM",
         "type": "Personeel/materieelvoertuig",
-        "aantal": 138
+        "aantal": 139
     },
     {
         "afkorting": "PMT",
@@ -172,7 +172,7 @@
     {
         "afkorting": "TS",
         "type": "Tankautospuit",
-        "aantal": 1151
+        "aantal": 1154
     },
     {
         "afkorting": "TST",
@@ -672,7 +672,7 @@
     {
         "afkorting": "GM",
         "type": "Gereedschap/materieelvoertuig",
-        "aantal": 138
+        "aantal": 137
     },
     {
         "afkorting": "GMT",
@@ -702,7 +702,7 @@
     {
         "afkorting": "HA-KR",
         "type": "Haakarmvoertuig met kraan",
-        "aantal": 30
+        "aantal": 29
     },
     {
         "afkorting": "HAT",
@@ -767,7 +767,7 @@
     {
         "afkorting": "MFT-VER",
         "type": "Multifunctioneel voertuig terreinvaardig verreiker",
-        "aantal": 9
+        "aantal": 10
     },
     {
         "afkorting": "QR",
@@ -982,7 +982,7 @@
     {
         "afkorting": "IM-COPI",
         "type": "Informatiemanager COPI",
-        "aantal": 37
+        "aantal": 38
     },
     {
         "afkorting": "IM-ROT",
@@ -1212,7 +1212,7 @@
     {
         "afkorting": "TS-BB",
         "type": "Tankautospuit bedrijfsbrandweer",
-        "aantal": 40
+        "aantal": 41
     },
     {
         "afkorting": "SB-BB",
