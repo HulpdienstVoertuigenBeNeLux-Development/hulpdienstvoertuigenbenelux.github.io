@@ -317,12 +317,12 @@
     {
         "afkorting": "RI",
         "type": "Rietdak brandbestrijdingsteam",
-        "aantal": 8
+        "aantal": 9
     },
     {
         "afkorting": "RIA",
         "type": "Rietdak brandbestrijdingsteam aanhanger",
-        "aantal": 6
+        "aantal": 5
     },
     {
         "afkorting": "PBA",
@@ -622,12 +622,12 @@
     {
         "afkorting": "VI",
         "type": "Veetakel installatie voertuig",
-        "aantal": 9
+        "aantal": 10
     },
     {
         "afkorting": "VIA",
         "type": "Veetakel installatie aanhanger",
-        "aantal": 39
+        "aantal": 38
     },
     {
         "afkorting": "BM-VTHS",
@@ -727,7 +727,7 @@
     {
         "afkorting": "LO",
         "type": "Logistiek voertuig",
-        "aantal": 107
+        "aantal": 108
     },
     {
         "afkorting": "LO-KR",
