@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 828
+        "aantal": 827
     },
     {
         "afkorting": "DAT",
@@ -317,12 +317,12 @@
     {
         "afkorting": "RI",
         "type": "Rietdak brandbestrijdingsteam",
-        "aantal": 7
+        "aantal": 8
     },
     {
         "afkorting": "RIA",
         "type": "Rietdak brandbestrijdingsteam aanhanger",
-        "aantal": 7
+        "aantal": 6
     },
     {
         "afkorting": "PBA",
