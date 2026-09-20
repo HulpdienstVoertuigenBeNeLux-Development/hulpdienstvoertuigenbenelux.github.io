@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 823
+        "aantal": 821
     },
     {
         "afkorting": "DAT",
@@ -672,7 +672,7 @@
     {
         "afkorting": "GM",
         "type": "Gereedschap/materieelvoertuig",
-        "aantal": 137
+        "aantal": 138
     },
     {
         "afkorting": "GMT",
@@ -1062,7 +1062,7 @@
     {
         "afkorting": "TD",
         "type": "Technische dienst",
-        "aantal": 59
+        "aantal": 58
     },
     {
         "afkorting": "TL-QRT",
