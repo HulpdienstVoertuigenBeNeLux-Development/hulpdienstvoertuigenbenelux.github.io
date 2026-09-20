@@ -1127,7 +1127,7 @@
     {
         "afkorting": "HW-DF",
         "type": "Hoogwerker Defensie",
-        "aantal": 2
+        "aantal": 1
     },
     {
         "afkorting": "MSA-DF",
@@ -1368,5 +1368,10 @@
         "afkorting": "COUGAR",
         "type": "Cougar Defensie t.b.v. FBO",
         "aantal": 17
+    },
+    {
+        "afkorting": "AL-DF",
+        "type": "Autoladder Defensie",
+        "aantal": 1
     }
 ]
