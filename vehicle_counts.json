@@ -2,7 +2,7 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 821
+        "aantal": 817
     },
     {
         "afkorting": "DAT",
@@ -972,7 +972,7 @@
     {
         "afkorting": "HOVD-B",
         "type": "Hoofdofficier van dienst Brandweer",
-        "aantal": 50
+        "aantal": 49
     },
     {
         "afkorting": "HOVD-HB",
@@ -1062,7 +1062,7 @@
     {
         "afkorting": "TD",
         "type": "Technische dienst",
-        "aantal": 58
+        "aantal": 59
     },
     {
         "afkorting": "TL-QRT",
