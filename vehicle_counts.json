@@ -610,6 +610,11 @@
         "aantal": 3
     },
     {
+        "afkorting": "MFT-STH",
+        "type": "Multifunctioneel voertuig terreinvaardig specialistische technische hulpverlening",
+        "aantal": 1
+    },
+    {
         "afkorting": "BMA-USR",
         "type": "Bijzonder materieel aanhanger USAR",
         "aantal": 2
