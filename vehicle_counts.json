@@ -2,12 +2,12 @@
     {
         "afkorting": "DA",
         "type": "Dienstauto",
-        "aantal": 817
+        "aantal": 816
     },
     {
         "afkorting": "DAT",
         "type": "Dienstauto terreinvaardig",
-        "aantal": 5
+        "aantal": 6
     },
     {
         "afkorting": "DB",
@@ -742,7 +742,7 @@
     {
         "afkorting": "LOH",
         "type": "Logistiek haakarmbak",
-        "aantal": 23
+        "aantal": 25
     },
     {
         "afkorting": "LOH-KR",
