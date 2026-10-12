@@ -241,7 +241,7 @@
     },
     {
         "afkorting": "TS-IB",
-        "type": "Tankautospuit industrie brandbestrijding"
+        "type": "Tankautospuit industriebrandbestrijding"
     },
     {
         "afkorting": "TS-OPS",
@@ -353,7 +353,7 @@
     },
     {
         "afkorting": "HW-IB",
-        "type": "Hoogwerker industrie brandbestrijding"
+        "type": "Hoogwerker industriebrandbestrijding"
     },
     {
         "afkorting": "HW",
@@ -381,7 +381,7 @@
     },
     {
         "afkorting": "AS-IB",
-        "type": "Autospuit industrie brandbestrijding"
+        "type": "Autospuit industriebrandbestrijding"
     },
     {
         "afkorting": "SI",
@@ -449,19 +449,19 @@
     },
     {
         "afkorting": "RI",
-        "type": "Rietdak brandbestrijdingsteam"
+        "type": "Rietdakbrandbestrijdingsteam"
     },
     {
         "afkorting": "ON-RI",
-        "type": "Ondersteuningsteam rietdak brandbestrijding"
+        "type": "Ondersteuningsteam rietdakbrandbestrijding"
     },
     {
         "afkorting": "RIA",
-        "type": "Rietdak brandbestrijdingsteam aanhanger"
+        "type": "Rietdakbrandbestrijdingsteam aanhanger"
     },
     {
         "afkorting": "RIH",
-        "type": "Rietdak brandbestrijdingsteam haakarmbak"
+        "type": "Rietdakbrandbestrijdingsteam haakarmbak"
     },
     {
         "afkorting": "PBA",
@@ -617,51 +617,51 @@
     },
     {
         "afkorting": "ON-TPB",
-        "type": "Ondersteuningsteam tankput brandbestrijding"
+        "type": "Ondersteuningsteam tankputbrandbestrijding"
     },
     {
         "afkorting": "DPH-TPB",
-        "type": "Dompelpomphaakarmbak tankput brandbestrijding"
+        "type": "Dompelpomphaakarmbak tankputbrandbestrijding"
     },
     {
         "afkorting": "DPV-TPB",
-        "type": "Dompelpompvaartuig tankput brandbestrijding"
+        "type": "Dompelpompvaartuig tankputbrandbestrijding"
     },
     {
         "afkorting": "BMH-TPB",
-        "type": "Bijzonder materieel haakarmbak tankput brandbestrijding"
+        "type": "Bijzonder materieel haakarmbak tankputbrandbestrijding"
     },
     {
         "afkorting": "MSA-TPB",
-        "type": "Motorspuit/boosterpompaanhanger tankput brandbestrijding"
+        "type": "Motorspuit/boosterpompaanhanger tankputbrandbestrijding"
     },
     {
         "afkorting": "MSH-TPB",
-        "type": "Motorspuit/boosterpomphaakarmbak tankput brandbestrijding"
+        "type": "Motorspuit/boosterpomphaakarmbak tankputbrandbestrijding"
     },
     {
         "afkorting": "SLH-TPB",
-        "type": "Slangenhaakarmbak tankput brandbestrijding"
+        "type": "Slangenhaakarmbak tankputbrandbestrijding"
     },
     {
         "afkorting": "SOH-TPB",
-        "type": "Slangenopneemhaakarmbak tankput brandbestrijding"
+        "type": "Slangenopneemhaakarmbak tankputbrandbestrijding"
     },
     {
         "afkorting": "SVA-TPB",
-        "type": "Schuimvormend middel aanhanger tankput brandbestrijding"
+        "type": "Schuimvormend middel aanhanger tankputbrandbestrijding"
     },
     {
         "afkorting": "SVH-TPB",
-        "type": "Schuimvormend middel haakarmbak tankput brandbestrijding"
+        "type": "Schuimvormend middel haakarmbak tankputbrandbestrijding"
     },
     {
         "afkorting": "WKA-TPB",
-        "type": "Waterkanonaanhanger tankput brandbestrijding"
+        "type": "Waterkanonaanhanger tankputbrandbestrijding"
     },
     {
         "afkorting": "WKH-TPB",
-        "type": "Waterkanonhaakarmbak tankput brandbestrijding"
+        "type": "Waterkanonhaakarmbak tankputbrandbestrijding"
     },
     {
         "afkorting": "ON-VN",
@@ -1177,7 +1177,7 @@
     },
     {
         "afkorting": "AC-B",
-        "type": "Algemeen commandant brandweer"
+        "type": "Algemeen commandant Brandweer"
     },
     {
         "afkorting": "CDT-B",
@@ -1369,7 +1369,7 @@
     },
     {
         "afkorting": "PC-TPB",
-        "type": "Pelotonscommandant tankput brandbestrijding"
+        "type": "Pelotonscommandant tankputbrandbestrijding"
     },
     {
         "afkorting": "PR",
