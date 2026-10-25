@@ -53,16 +53,18 @@
             const data = await res.json();
             const tbody = document.getElementById('table-body');
             
+            // Cellen via textContent vullen: tekst uit de sheet wordt nooit als HTML uitgevoerd
             data.forEach(item => {
-                tbody.innerHTML += `<tr>
-                    <td><strong>${item.afkorting}</strong></td>
-                    <td>${item.type}</td>
-                    <td>${item.aantal}</td>
-                </tr>`;
+                const tr = document.createElement('tr');
+                const afk = document.createElement('strong');
+                afk.textContent = item.afkorting;
+                tr.insertCell().appendChild(afk);
+                tr.insertCell().textContent = item.type;
+                tr.insertCell().textContent = item.aantal;
+                tbody.appendChild(tr);
             });
 
-            // Timestamp ophalen via GitHub API
-            // Vervang JOUW_GEBRUIKERSNAAM en JOUW_REPO_NAAM door jouw gegevens
+            // Tijdstip van de laatste update ophalen via de GitHub API
             const commitRes = await fetch('https://api.github.com/repos/HulpdienstVoertuigenBeNeLux/hulpdienstvoertuigenbenelux.github.io/commits?path=vehicle_counts.json');
             const commits = await commitRes.json();
             const date = new Date(commits[0].commit.committer.date);
