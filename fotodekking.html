@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotodekking per regio</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: white; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+        .header { background-color: #333; color: white; padding: 20px; text-align: center; }
+        .header h2 { margin: 0; font-size: 1.5em; text-transform: uppercase; letter-spacing: 1px; }
+
+        .nav { display: flex; justify-content: center; gap: 8px; padding: 10px 20px; background: #444; }
+        .nav a { color: #ddd; text-decoration: none; font-size: 0.85em; padding: 6px 12px; border-radius: 4px; }
+        .nav a:hover { background: #555; color: white; }
+        .nav a.active { background: #f4f7f6; color: #333; font-weight: bold; }
+
+        #last-update { padding: 12px 20px; background: #eee; font-size: 0.85em; border-bottom: 1px solid #ddd; color: #555; text-align: center; font-weight: bold; }
+
+        .toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid #eee; }
+        .tabs { display: flex; gap: 6px; }
+        .tabs button, .download { font: inherit; font-size: 0.85em; border: 1px solid #ccc; background: #fafafa; color: #333; padding: 7px 14px; border-radius: 4px; cursor: pointer; }
+        .tabs button.active { background: #333; border-color: #333; color: white; font-weight: bold; }
+        .download:hover, .tabs button:hover:not(.active) { background: #f0f0f0; }
+
+        .totals { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 16px 20px; border-bottom: 1px solid #eee; }
+        .total { background: #f8f8f8; border: 1px solid #eee; border-radius: 6px; padding: 12px 14px; }
+        .total .label { font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.5px; color: #777; }
+        .total .value { font-size: 1.4em; font-weight: bold; color: #333; margin-top: 4px; }
+        .total .sub { font-size: 0.85em; color: #666; }
+
+        .table-wrap { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background-color: #f8f8f8; color: #333; padding: 12px 14px; text-align: left; border-bottom: 2px solid #ddd; text-transform: uppercase; font-size: 0.75em; letter-spacing: 0.5px; white-space: nowrap; cursor: pointer; user-select: none; }
+        th.num, td.num { text-align: right; }
+        th .arrow { color: #aaa; }
+        td { padding: 10px 14px; border-bottom: 1px solid #eee; color: #444; font-size: 0.9em; }
+        tr:nth-child(even) td { background-color: #fcfcfc; }
+        tr:hover td { background-color: #f1f1f1; }
+        tr.total-row td { font-weight: bold; background: #f4f4f4; border-top: 2px solid #ddd; }
+
+        .pct { display: flex; align-items: center; justify-content: flex-end; gap: 8px; white-space: nowrap; }
+        .bar { width: 60px; height: 6px; background: #e6e6e6; border-radius: 3px; overflow: hidden; flex-shrink: 0; }
+        .bar span { display: block; height: 100%; background: #2d7df6; }
+        .zero { color: #aaa; }
+
+        .note { padding: 12px 20px; font-size: 0.8em; color: #777; }
+
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            th, td { padding: 8px; font-size: 0.8em; }
+            .bar { display: none; }
+            .totals { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h2>Fotodekking per regio</h2>
+    </div>
+    <nav class="nav">
+        <a href="index.html">Brandweer Voertuigen</a>
+        <a href="fotodekking.html" class="active">Fotodekking</a>
+    </nav>
+    <div id="last-update">Laatste update: data ophalen...</div>
+
+    <div class="toolbar">
+        <div class="tabs" id="tabs"></div>
+        <button class="download" id="download" type="button">Download voor Excel</button>
+    </div>
+
+    <div class="totals" id="totals"></div>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th data-sort="regio">Regio <span class="arrow"></span></th>
+                    <th class="num" data-sort="posten">Posten <span class="arrow"></span></th>
+                    <th class="num" data-sort="posten_pct">Met foto <span class="arrow"></span></th>
+                    <th class="num" data-sort="voertuigen">Voertuigen <span class="arrow"></span></th>
+                    <th class="num" data-sort="voertuigen_pct">Met foto <span class="arrow"></span></th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+    <div class="note">Een post of voertuig telt als "met foto" als er een foto aan gekoppeld is in de sheet. Klik op een kolomkop om te sorteren.</div>
+</div>
+
+<script>
+    let landen = [];
+    let actief = 0;
+    let sortKey = null;
+    let sortDesc = false;
+
+    const pct = (deel, totaal) => totaal ? deel / totaal * 100 : 0;
+    const fmtPct = (deel, totaal) => totaal ? pct(deel, totaal).toLocaleString('nl-NL', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + '%' : '-';
+    const fmt = n => n.toLocaleString('nl-NL');
+
+    function el(tag, className, text) {
+        const e = document.createElement(tag);
+        if (className) e.className = className;
+        if (text !== undefined) e.textContent = text;
+        return e;
+    }
+
+    // "86 / 2.591" met percentage en balkje; cellen via textContent, tekst uit de sheet wordt nooit HTML
+    function pctCell(deel, totaal) {
+        const td = el('td', 'num');
+        const wrap = el('div', 'pct' + (deel ? '' : ' zero'));
+        wrap.appendChild(el('span', '', fmt(deel) + ' · ' + fmtPct(deel, totaal)));
+        const bar = el('div', 'bar');
+        const fill = el('span');
+        fill.style.width = Math.min(100, pct(deel, totaal)) + '%';
+        bar.appendChild(fill);
+        wrap.appendChild(bar);
+        td.appendChild(wrap);
+        return td;
+    }
+
+    function renderTabs() {
+        const tabs = document.getElementById('tabs');
+        tabs.replaceChildren();
+        landen.forEach((land, i) => {
+            const b = el('button', i === actief ? 'active' : '', land.naam);
+            b.type = 'button';
+            b.onclick = () => { actief = i; render(); };
+            tabs.appendChild(b);
+        });
+    }
+
+    function renderTotals(t) {
+        const box = document.getElementById('totals');
+        box.replaceChildren();
+        [['Posten met foto', t.posten_foto, t.posten], ['Voertuigen met foto', t.voertuigen_foto, t.voertuigen]].forEach(([label, deel, totaal]) => {
+            const d = el('div', 'total');
+            d.appendChild(el('div', 'label', label));
+            d.appendChild(el('div', 'value', fmtPct(deel, totaal)));
+            d.appendChild(el('div', 'sub', fmt(deel) + ' van ' + fmt(totaal)));
+            box.appendChild(d);
+        });
+    }
+
+    function sortedRegios(regios) {
+        if (!sortKey) return regios;
+        const val = r => sortKey === 'regio' ? r.regio.toLowerCase()
+            : sortKey === 'posten_pct' ? pct(r.posten_foto, r.posten)
+            : sortKey === 'voertuigen_pct' ? pct(r.voertuigen_foto, r.voertuigen)
+            : r[sortKey];
+        return [...regios].sort((a, b) => {
+            const x = val(a), y = val(b);
+            const c = typeof x === 'string' ? x.localeCompare(y, 'nl') : x - y;
+            return sortDesc ? -c : c;
+        });
+    }
+
+    function render() {
+        const land = landen[actief];
+        renderTabs();
+        renderTotals(land.totaal);
+        document.querySelectorAll('th[data-sort] .arrow').forEach(a => {
+            a.textContent = a.parentElement.dataset.sort === sortKey ? (sortDesc ? '▼' : '▲') : '';
+        });
+
+        const tbody = document.getElementById('table-body');
+        tbody.replaceChildren();
+        const rows = sortedRegios(land.regios).concat([Object.assign({ regio: 'Totaal', _total: true }, land.totaal)]);
+        rows.forEach(r => {
+            const tr = el('tr', r._total ? 'total-row' : '');
+            tr.appendChild(el('td', '', r.regio));
+            tr.appendChild(el('td', 'num', fmt(r.posten)));
+            tr.appendChild(pctCell(r.posten_foto, r.posten));
+            tr.appendChild(el('td', 'num', fmt(r.voertuigen)));
+            tr.appendChild(pctCell(r.voertuigen_foto, r.voertuigen));
+            tbody.appendChild(tr);
+        });
+    }
+
+    document.querySelectorAll('th[data-sort]').forEach(th => {
+        th.onclick = () => {
+            const key = th.dataset.sort;
+            // Eerste klik: getallen van hoog naar laag, regio's van A naar Z
+            if (sortKey === key) sortDesc = !sortDesc;
+            else { sortKey = key; sortDesc = key !== 'regio'; }
+            render();
+        };
+    });
+
+    // CSV met puntkomma's en komma-decimalen: opent in een Nederlandse Excel direct in kolommen
+    document.getElementById('download').onclick = () => {
+        const q = v => '"' + String(v).replace(/"/g, '""') + '"';
+        const lines = [['Land', 'Regio', 'Posten', 'Posten met foto', '% posten', 'Voertuigen', 'Voertuigen met foto', '% voertuigen'].map(q).join(';')];
+        landen.forEach(land => {
+            land.regios.concat([Object.assign({ regio: 'TOTAAL' }, land.totaal)]).forEach(r => {
+                lines.push([land.code, r.regio, r.posten, r.posten_foto, fmtPct(r.posten_foto, r.posten),
+                            r.voertuigen, r.voertuigen_foto, fmtPct(r.voertuigen_foto, r.voertuigen)].map(q).join(';'));
+            });
+        });
+        const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'fotodekking-per-regio.csv';
+        a.click();
+        URL.revokeObjectURL(a.href);
+    };
+
+    async function loadData() {
+        try {
+            const res = await fetch('fotodekking.json', { cache: 'no-cache' });
+            const data = await res.json();
+            landen = data.landen;
+            render();
+            document.getElementById('last-update').innerText = "Cijfers bijgewerkt: " + new Date(data.bijgewerkt).toLocaleString('nl-NL');
+        } catch (e) {
+            document.getElementById('last-update').innerText = "Kon data niet laden.";
+        }
+    }
+    loadData();
+</script>
+
+</body>
+</html>
